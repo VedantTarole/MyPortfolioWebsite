@@ -1,0 +1,112 @@
+#Home {
+  border-bottom: solid 8px rgb(211, 90, 34);
+  font-size: 25px;
+  text-decoration: solid red;
+}
+.navigation{
+  position: absolute;
+  top: 16.5%;
+}
+nav ul{
+  margin: 0px 100px ;
+  white-space: nowrap;
+  max-width: 1200px;
+}
+nav li{
+  width: 20%;
+  font-size: 25px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 35px;
+  text-align: center;
+}
+nav li:hover{
+  background-color: #d4d4d4ec;
+  font-size: 30px;
+}
+a{
+  text-decoration: inherit;
+  color: #4b4b4b;
+  padding: 5px 25px;
+ 
+}
+.Meee {
+    text-align: center;
+    background-image: url("header.png");
+    background-color:rgba(128, 128, 128, 0.616);
+    padding: 9px 0;
+    display: inline-block;
+    position:fixed;
+    top: -20px;
+    left: 0;
+    width:100%;
+    z-index: 100;
+    font-family:fantasy;
+    font-size: 1.5em;
+}
+.Meee span{
+  position: absolute;
+  top: 95px;
+  left: 40%;
+  text-align: center;
+  font-family: cursive;
+  font-size: 0.8em;
+}
+.Meee img{
+  height: 50px;
+  width: 60px;
+  z-index: 1;
+}
+.Glow img{
+  height:70%;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:25.5%;
+}
+
+
+
+#Thought{
+  font-size: 2em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#Intro{
+  font-size: 1.5em;
+  
+}
+footer p {
+  font-size: 1.2em;
+}
+div#bodyy{
+  position: absolute;
+  top:680px;
+  margin-left: 60px;
+  background-image:url("back2.jpg");
+  background-color: rgb(187, 246, 248);
+  border-left: 2px dashed black;
+  border-right: 2px dashed black;
+  padding-left: 10px;
+  padding-right: 5px;;
+}
+#Contact{
+  width:100%;
+  margin:100px auto;
+}
+.box{
+  box-sizing: border-box;
+  float:left;
+  min-width: 100px;
+  height:20px;
+  margin:100px 0;
+  text-align: center;
+  flex-grow: 1;
+  
+}
+.box a img:hover{
+  height: 250px;
+  width: 250px;
+}
+.flex-container{
+  display: flex;
+}
